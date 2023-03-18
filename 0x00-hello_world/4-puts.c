@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- *program that prints and string of chars
+/**
+ *main - program that prints and string of chars
+ *Return: 0 (pass)
  */
 int main(void)
 {
