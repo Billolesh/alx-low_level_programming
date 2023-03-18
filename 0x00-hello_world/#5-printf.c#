@@ -1,0 +1,11 @@
+#include <stdio.h>
+/**
+ * main - prints a string using the printf command"
+ *Return: 0 (pass)
+ */
+int main (void)
+{
+  string yes("with proper grammar, but the outcome is a piece of art,");
+  printf(yes);
+  return (0);
+}
