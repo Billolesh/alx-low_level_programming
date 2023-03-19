@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stio.h>
 /*more headers goes there */
+#include <stdio.h>
 /* betty style doc for function main goes there */
 /**
 *main - code that checks the status of a value
@@ -15,14 +15,14 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n == 0)
 {
-printf("is zero, \n");
+printf("%d is zero, \n", n);
 }
 else if (n < 0)
 {
-printf("is negative, \n");
+printf("is negative, \n", n);
 }
 else
 {
-printf("is positive, \n");
+printf("is positive, \n", n);
 return (0);
 }
