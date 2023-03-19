@@ -1,0 +1,1 @@
+c code in if,else if
