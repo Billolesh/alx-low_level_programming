@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-/*more headers goes there */
 #include <stio.h>
+/*more headers goes there */
 /* betty style doc for function main goes there */
 /**
 *main - code that checks the status of a value
