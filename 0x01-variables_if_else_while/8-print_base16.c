@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-char yes[] = "0123456789101112131415";
+char yes[] = "0123456789abcdef";
 int i;
 for (i = 0; yes[i] != '\0'; i++)
 {
