@@ -5,11 +5,14 @@
  */
 int main(void)
 {
-char yes[] = "0, 1, 2, 3, 4, 5, 6, 7, 8, 9,";
-int i;
-for (i = 0; yes[i] != '\0'; i++)
+int d;
+for (d = 0; d <= 9; d++)
+putchar(d);
 {
-putchar(yes[i]);
+if (d != 9)
+putchar(",");
+putchar(" ");
 }
+putchar("\n");
 return (0);
 }
