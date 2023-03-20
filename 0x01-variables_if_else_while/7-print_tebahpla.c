@@ -5,7 +5,7 @@
 */
 int main(void)
 {
-char yes[] = "zxyvwtsrqponmlkjihgfedcba\n";
+char yes[] = "zxywvutsrqponmlkjihgfedcba\n";
 int i;
 for (i = 0; yes[i] != '\0'; i++)
 {
