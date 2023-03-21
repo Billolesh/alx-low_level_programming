@@ -13,12 +13,12 @@ return (-1);
 }
 else if (n == 0)
 {
-_puchar('0');
+_putchar('0');
 return ('0');
 }
 else
 {
-_puchar('+');
+_putchar('+');
 return (+1);
 }
 }
