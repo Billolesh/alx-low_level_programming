@@ -7,7 +7,7 @@
 */
 void print_most_numbers(void)
 {
-char yes[] = "0123456789\n";
+char yes[] = "01356789\n";
 int i;
 for (i = 0; yes[i] != '\0'; i++)
 {
