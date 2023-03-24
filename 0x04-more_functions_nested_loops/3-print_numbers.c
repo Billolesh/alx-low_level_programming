@@ -6,15 +6,10 @@
 */
 void print_numbers(void)
 {
-_putchar ('0');
-_putchar ('1');
-_putchar ('2');
-_putchar ('3');
-_putchar ('4');
-_putchar ('5');
-_putchar ('6');
-_putchar ('7');
-_putchar ('8');
-_putchar ('9');
-_putchar ('\n');
+char yes[] = "0123456789\n";
+int i;
+for (i = 0; yes[i] != '\0'; i++)
+{
+_putchar (yes[i]);
+}
 }
