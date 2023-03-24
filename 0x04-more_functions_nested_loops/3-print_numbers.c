@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 *print_numbers - prints numbers
+*_putchar - prints item
 *Return: numbers
 */
 void print_numbers(void)
