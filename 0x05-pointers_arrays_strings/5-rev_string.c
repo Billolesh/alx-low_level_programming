@@ -1,25 +1,19 @@
 #include "main.h"
 /**
 *rev_string - reveses a string
-*@words: the string being reversed
-*@o: just an integer
 *@s: the size of the array
 *Return: 0 (success)
 */
 void rev_string(char *s)
 {
-int words = 0;
- int o;
-while(*s != '\0')
+int len = 0, index = 0;
+char tmp;
+while (s[index++])
+len++;
+for (index = len - 1; index >= len / 2; index--)
 {
-s++;
-words++;
-}
-s--;
-for (o = words - 1; o >= 0; o--)
-{
- _putchar(*s);
- s--;
+tmp = s[index];
+s[index] = s[len - index - 1];
+s[len - index - 1] = tmp;
 }
 }
-       
