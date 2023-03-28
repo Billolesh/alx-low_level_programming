@@ -11,6 +11,7 @@ int j = 0;
 while (*str != '\0')
 {
 j++;
+str++;
 }
 for (i = 0; i < j; i += 2)
 {
