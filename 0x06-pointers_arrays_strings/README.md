@@ -1,0 +1,1 @@
+this readme contains some info that the program is challanging espesially the
