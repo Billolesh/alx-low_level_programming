@@ -1,6 +1,7 @@
 #include "main.h"
 /**
 *_strchr - checks for a number
+*@s: array being checked
 *@c: value being  looked for
 *Return: succsses
 */
@@ -14,5 +15,5 @@ return (s);
 }
 s++;
 }
-return (NULL);
+return ('\0');
 }
