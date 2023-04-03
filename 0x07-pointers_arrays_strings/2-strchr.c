@@ -15,5 +15,5 @@ return (s);
 }
 s++;
 }
-return ((char *)0);
+return ('\0');
 }
