@@ -1,0 +1,1 @@
+this readme file is for my first time doing recursion in c
