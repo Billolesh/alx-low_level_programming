@@ -1,1 +1,1 @@
-on this day i have started creating static libraries and learing how to yes make static library
+static libraries
