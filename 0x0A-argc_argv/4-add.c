@@ -8,36 +8,26 @@
 */
 int main(int argc, char *argv[])
 {
+int result;
 int i;
-int result = 0;
-for (i = 1; i < argc; i++)
-{
-if (argc > 2 && (argv[i][0] > 97 && argv[i][0] < 122))
-{
-result = result + atoi(argv[i]);
-printf("%d\n", result);
-{
-return (2);
-}
-}
-else if (argc < 2)
+i = 1;
+result = atoi(argv[1]);
+if (argc < 3)
 {
 printf("0\n");
-{
-return (3);
+return (1);
 }
-}
-else if (argv[i][0] > 97 && argv[i][0] < 122)
+else if (argv[i][0] < 97 && argv[i][0] > 122)
 {
 printf("Error\n");
-{
-return (4);
-}
+i++;
+return (1);
 }
 else
 {
-return (1);
-}
-}
+result = atoi(argv[1]) + atoi(argv[i + 1]);
+i++;
+printf("%d\n", result);
 return (0);
+}
 }
