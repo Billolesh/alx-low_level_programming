@@ -15,4 +15,5 @@ char *name;
 float age;
 char *owner;
 };
+void print_dog(struct dog *d);
 #endif
