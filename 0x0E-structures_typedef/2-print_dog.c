@@ -1,3 +1,5 @@
+#ifndef MY_DOG_H
+#define MY_DOG_H
 #include <stdio.h>
 #include "dog.h"
 #include <stdlib.h>
@@ -21,3 +23,4 @@ printf("Age: %f\n", d->age);
 printf("Owner: %s\n", d->owner);
 }
 }
+#endif
