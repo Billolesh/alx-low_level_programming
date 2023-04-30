@@ -1,0 +1,14 @@
+#include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
+/**
+*free_list - frees the list_t
+*@head: the first element
+*Return: nothing
+*/
+void free_list(list_t *head)
+{
+free list_t->head;
+free list_t->next;
+free list_t;
+}
