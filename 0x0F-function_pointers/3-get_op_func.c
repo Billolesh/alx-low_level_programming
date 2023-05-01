@@ -7,22 +7,23 @@
 *@s: the operator
 *Return: function pointer to corresponding operation                                      
 */
-int (*get_op_func(char *s))(int, int)
+int (*get_op_func(char*s)(int, int)
 {
-int (*operation)(int, int);
-if (s == NULL)
+op_t ops[] = {
+{"+", op_add}
+{"-", op_sub}
+{"*", op_mul}
+{"/", op_div}
+{"%", op_mod}
+{NULL, NULL}
+};
+int i;
+i = 0;
+while (ops[i].op)
+{
+if (strcmp(ops[i].op, s) == 0)
+return (ops[i].f);
+i++;
+}
 return (NULL);
-if (*s == '+')
-operation = &op_add;
-else if (*s == '-')
-operation = &op_sub;
-else if (*s == '*')
-operation = &op_mul;
-else if (*s == '/')
-operation = &op_div;
-else if (*s == '%')
-operation = &op_mod;
-else
-operation = NULL;
-return (operation);
 }
